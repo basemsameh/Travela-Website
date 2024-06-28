@@ -1,0 +1,31 @@
+/* Footer */
+footer {
+  padding-top: 100px;
+}
+
+footer .container-fluid .links ul li {
+  cursor: pointer;
+}
+
+footer .container-fluid .links ul li:hover {
+  color: var(--blue);
+  letter-spacing: 2px;
+}
+
+footer .container-fluid .form-select {
+  color: #999;
+}
+
+footer .container-fluid .form-select ~ label {
+  color: #666;
+}
+
+footer .container-fluid .form-select ~ label::after {
+  background-color: inherit;
+  color: #666;
+}
+
+footer .container-fluid .copy-right {
+  color: grey;
+  border-top: 1px solid #333;
+}

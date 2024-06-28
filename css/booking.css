@@ -1,0 +1,9 @@
+.home {
+  background-image: linear-gradient(
+      rgba(19, 53, 123, 0.8),
+      rgba(19, 53, 123, 0.8)
+    ),
+    url(../images/bg-booking.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}

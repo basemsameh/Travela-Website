@@ -1,0 +1,32 @@
+.home {
+  background-color: var(--bg-color);
+}
+/* Contact Section */
+.contact {
+  background-color: var(--bg-color);
+}
+
+.contact .container-fluid {
+  max-width: 1280px;
+}
+
+.contact .container-fluid .content i {
+  color: var(--blue);
+  font-size: 46px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.contact .container-fluid .content h3 {
+  color: var(--blue);
+}
+
+.contact .container-fluid .content form textarea:focus,
+.contact .container-fluid .content form input:focus {
+  outline: none;
+}
+
+.contact .container-fluid .content form textarea {
+  height: 150px;
+  resize: vertical;
+}
