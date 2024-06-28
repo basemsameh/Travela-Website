@@ -143,6 +143,7 @@ main section h2 span {
 
 .services .container-fluid .content figure {
   color: var(--blue);
+  padding: 0;
 }
 
 .services .container-fluid .content .service:hover {
